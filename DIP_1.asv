@@ -4,7 +4,7 @@ a = imread("im_2.tif");
 b = imread("im_3.tif");
 c = imread("small_1.png");
 
-z = resize(c,.5);
+z = resize(c,.);
 
 figure
 imshow(c)
